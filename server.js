@@ -5,7 +5,7 @@ const app = express()
 const cors = require('cors')
 const morgan = require('morgan')
 
-const { PORT } = process.env
+const PORT = 4000
 
 const { clientController, ReviewController, ProjectController } = require('./controllers')
 
